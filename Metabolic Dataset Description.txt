@@ -1,0 +1,26 @@
+Metabolic Dataset Description
+
+The dataset contains 4,340 entries and 21 columns, providing comprehensive data on individuals related to metabolic syndrome and associated health factors.
+
+Column Descriptions:
+codesub: A unique identifier for each individual (e.g., "R-S615112").
+age: Age of the individual in years (integer).
+hpt: Indicates the presence of hypertension ("yes" or "no").
+smoking: Smoking status, such as "never smoked" or "still smoking".
+dmdx: Indicates if the individual has diabetes ("yes" or "no").
+height: Height of the individual in meters (float). Missing values exist.
+weight: Weight of the individual in kilograms (float). Missing values exist.
+waist: Waist circumference in centimeters (float). Missing values exist.
+hip: Hip circumference in centimeters (float). Missing values exist.
+msbpr: Mean systolic blood pressure in mmHg (float).
+mdbpr: Mean diastolic blood pressure in mmHg (float).
+hba1c: Glycated hemoglobin (HbA1c) percentage, indicative of long-term blood glucose levels (float). Missing values exist.
+fbs: Fasting blood sugar levels in mmol/L (float). Missing values exist.
+mogtt1h: 1-hour glucose tolerance test result in mmol/L (float). Missing values exist.
+mogtt2h: 2-hour glucose tolerance test result in mmol/L (float). Missing values exist.
+totchol: Total cholesterol level in mmol/L (float). Missing values exist.
+ftrigliz: Fasting triglyceride levels in mmol/L (float). Missing values exist.
+hdl: High-density lipoprotein (HDL) cholesterol in mmol/L (float). Missing values exist.
+ldl: Low-density lipoprotein (LDL) cholesterol in mmol/L (float). Missing values exist.
+gender: Gender of the individual ("male" or "female").
+crural: Urban or rural residency status (e.g., "rural").

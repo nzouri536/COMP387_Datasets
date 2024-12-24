@@ -1,0 +1,17 @@
+Stroke Dataset Description
+
+The dataset contains 213 entries and 12 columns, providing clinical data related to stroke patients.
+
+Column Descriptions:
+doa: Date of admission to the healthcare facility (format: DD/MM/YYYY).
+dod: Date of discharge or death (format: DD/MM/YYYY).
+status: Patient's outcome at discharge, either "alive" or "dead".
+sex: Gender of the patient ("male" or "female").
+dm: Indicates if the patient has diabetes mellitus ("yes" or "no").
+gcs: Glasgow Coma Scale score, a measure of consciousness (integer, typically 3-15).
+sbp: Systolic blood pressure in mmHg (integer).
+dbp: Diastolic blood pressure in mmHg (integer).
+wbc: White blood cell count in 10⁹/L (float).
+time2: Length of stay or time to outcome in days (integer).
+stroke_type: Type of stroke experienced, either "IS" (ischemic stroke) or "HS" (hemorrhagic stroke).
+referral_from: Source of patient referral, either "hospital" or "non-hospital".

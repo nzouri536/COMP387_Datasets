@@ -1,0 +1,14 @@
+Coronary Dataset Description
+
+The dataset contains 200 entries and 9 columns, representing data on individuals with information relevant to coronary conditions. Some columns have missing values.
+
+Column Descriptions:
+age: The age of the individual (in years). It is numeric (float) and has missing values.
+race: The race or ethnicity of the individual (e.g., "indian", "malay"). It is categorical and has missing values.
+chol: Cholesterol levels of the individual. It is numeric (float) and has missing values.
+id: A unique identifier for each individual. It is numeric (integer) and complete.
+cad: Indicates the presence or absence of coronary artery disease. It is categorical with values such as "no cad".
+sbp: Systolic blood pressure of the individual. It is numeric (integer) and complete.
+dbp: Diastolic blood pressure of the individual. It is numeric (integer) and complete.
+bmi: Body mass index of the individual. It is numeric (float) and complete.
+gender: Gender of the individual, represented as "man" or "woman". It is categorical and complete.

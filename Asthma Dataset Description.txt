@@ -1,0 +1,9 @@
+Asthma File Description
+
+gender: Indicates the gender of the individual, with values being "male", "female", or "NS" (not specified).
+
+res_inf: Indicates if the individual has had respiratory infections, with values being "yes" or "no".
+
+ghq12: Represents the General Health Questionnaire score, with random values between 1 and 33. Higher scores often suggest poorer mental health.
+
+attack: Represents the number of asthma attacks the individual has experienced, with values ranging from 0 to 7

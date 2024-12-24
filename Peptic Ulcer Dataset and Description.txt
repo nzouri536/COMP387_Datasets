@@ -1,0 +1,39 @@
+Peptic Ulcer Dataset and Description
+
+The dataset contains 121 entries and 34 columns, providing detailed clinical data on patients with peptic ulcer conditions.
+
+Column Descriptions:
+age: Age of the patient (integer).
+gender: Gender of the patient ("male" or "female").
+epigastric_pain: Indicates whether the patient experienced epigastric pain ("yes" or "no").
+vomiting: Indicates whether the patient experienced vomiting ("yes" or "no").
+nausea: Indicates whether the patient experienced nausea ("yes" or "no").
+fever: Indicates whether the patient experienced fever ("yes" or "no").
+diarrhea: Indicates whether the patient experienced diarrhea ("yes" or "no").
+malena: Indicates whether the patient experienced malena (presence of blood in stool) ("yes" or "no").
+onset_more_24_hrs: Indicates if symptoms lasted more than 24 hours before admission ("yes" or "no").
+NSAIDS: Indicates if the patient used non-steroidal anti-inflammatory drugs ("yes" or "no").
+septic_shock: Indicates if the patient experienced septic shock ("yes" or "no").
+previous_OGDS: Indicates if the patient had a previous upper GI endoscopy ("yes" or "no").
+ASA: ASA (American Society of Anesthesiologists) score for assessing the fitness of patients before surgery (integer).
+systolic: Systolic blood pressure in mmHg (integer).
+diastolic: Diastolic blood pressure in mmHg (integer).
+inotropes: Indicates if the patient required inotropes ("yes" or "no").
+pulse: Pulse rate in beats per minute (integer).
+tenderness: Indicates if abdominal tenderness was present ("yes" or "no").
+guarding: Indicates if guarding (abdominal stiffness) was present ("yes" or "no").
+hemoglobin: Hemoglobin levels in g/dL (float).
+twc: Total white cell count (float).
+platelet: Platelet count (integer).
+creatinine: Serum creatinine levels in µmol/L (integer).
+albumin: Serum albumin levels in g/dL (float). Contains missing values.
+PULP: PULP (Peptic Ulcer Perforation) score, a risk assessment tool (integer).
+admission_to_op_hrs: Time in hours from admission to operation (integer).
+perforation: Size of the perforation in cm (float).
+degree_perforation: Size of perforation categorization ("small", "large").
+side_perforation: Location of the perforation (e.g., "distal stomach").
+ICU: Indicates if the patient required ICU admission ("yes" or "no").
+SSSI: Indicates if there was a surgical site infection ("yes" or "no").
+anast_leak: Indicates if there was an anastomotic leak ("yes" or "no").
+sepsis: Indicates if the patient developed sepsis ("yes" or "no").
+outcome: Outcome of the treatment ("alive" or "deceased").

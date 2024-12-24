@@ -1,0 +1,9 @@
+Smoke Dataset Description
+
+The dataset contains information on smoking habits and related data. There are 63 entries and 4 columns.
+
+Column Description:
+smoke_yrs: Represents the range of years a person has been smoking (e.g., "15-19"). It is categorical data indicating smoking duration.
+cigar_day: The average number of cigars smoked per day. It is numeric and represented as a float.
+person_yrs: The total number of person-years represented in the data. This reflects the cumulative time contributed by individuals within the specified smoking duration.
+case: Indicates whether a case (possibly a medical condition or event) occurred. It is binary, with values 0 (no case) or 1 (case).
